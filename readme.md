@@ -22,7 +22,7 @@ Part 1 uses the [NoSQL_setup_starter.ipynb](Starter_Code/NoSQL_setup_starter.ipy
 * Assign the establishments collection to a variable to prepare the collection for use
 
 **Part 2: Update the Database**<br>
-Part 2 uses the NoSQL_setup_starter.ipynb file where the magazine editors requested modifications to the database. The following changes were made to the establishments collection:
+Part 2 uses the [NoSQL_setup_starter.ipynb](Starter_Code/NoSQL_setup_starter.ipynb) file where the magazine editors requested modifications to the database. The following changes were made to the establishments collection:
 * The supplied data for the "Penang Flavours" restaurant is inserted into the establishments collection
 * A query is performed to find the BusinessTypeID for "Restaurant/Cafe/Canteen" and returns only the BusinessTypeID and BusinessType fields
 * The "Penang Flavours" document is updated with the correct value for BusinessTypeID
@@ -31,7 +31,7 @@ Part 2 uses the NoSQL_setup_starter.ipynb file where the magazine editors reques
 * An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers and RatingValue to integers
 
 **Part 3: Exploratory Analysis**<br>
-Part 3 uses the NoSQL_analysis_starter.ipynb file to answer specific questions for Eat Safe, Love in order to find the locations they wish to visit and avoid.
+Part 3 uses the [NoSQL_analysis_starter.ipynb](Starter_Code/NoSQL_analysis_starter.ipynb) file to answer specific questions for Eat Safe, Love in order to find the locations they wish to visit and avoid.
 
 **Question 1: Which establishments have a hygiene score equal to 20?**
 * A query is performed to find the establishments with a hygiene score of 20
