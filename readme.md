@@ -41,7 +41,7 @@ Part 3 uses the [NoSQL_analysis_starter.ipynb](Starter_Code/NoSQL_analysis_start
 ![image](https://github.com/RachaelCaldwell/nosql-challenge/blob/main/Starter_Code/Images/hygeine_df.png)
 
 **Question 2: Which establishments in London have a RatingValue greater than or equal to 4?**
-*A query is performed to find the establishments in London with a RatingValue greater than or equal to 4
+* A query is performed to find the establishments in London with a RatingValue greater than or equal to 4
 * The query uses the $regex operator to locate the London establishments
 * count_documents() is used to list the correct number of documents (answer: 33)
 * The first result is printed using pprint
@@ -55,7 +55,7 @@ Part 3 uses the [NoSQL_analysis_starter.ipynb](Starter_Code/NoSQL_analysis_start
 * The query uses the limit() method in PyMongo to limit the results to 5
 * All five results are printed using pprint
 * The results are converted to a Pandas DataFrame and displayed
-![image}(
+![image}(https://github.com/RachaelCaldwell/nosql-challenge/blob/main/Starter_Code/Images/top5_df.png)
 
 **Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.**
 * An aggregation pipeline is built to include a match query, group, and sort
