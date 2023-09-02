@@ -46,7 +46,7 @@ Part 3 uses the [NoSQL_analysis_starter.ipynb](Starter_Code/NoSQL_analysis_start
 * count_documents() is used to list the correct number of documents (answer: 33)
 * The first result is printed using pprint
 * The results are converted to a Pandas DataFrame and displayed
-![image](
+![image](https://github.com/RachaelCaldwell/nosql-challenge/blob/main/Starter_Code/Images/rating_df.png)
 
 **Question 3: What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?**
 * A query is performed to find the establishments within 0.01 degree of the "Penang Flavours" restaurant
