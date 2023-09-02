@@ -66,4 +66,4 @@ Part 3 uses the [NoSQL_analysis_starter.ipynb](Starter_Code/NoSQL_analysis_start
 * The results from the aggregation query is cast as a list and then saved to a variable
 * The first ten results are printed using pprint
 * The results are converted to a Pandas DataFrame and displayed
-![image}(
+![image}(https://github.com/RachaelCaldwell/nosql-challenge/blob/main/Starter_Code/Images/hygeine_score_df.png)
